@@ -1,0 +1,57 @@
+# Ignore vendor directory
+vendor/
+
+# Ignore composer lock file
+composer.lock
+
+# Ignore phpunit configuration
+phpunit.xml
+
+# Ignore phpunit cache directory
+phpunit.cache
+
+# Ignore phpstan cache directory
+phpstan.cache
+
+# Ignore phpstan configuration
+phpstan.neon
+
+# Ignore php-cs-fixer configuration
+.php-cs-fixer.cache
+.php-cs-fixer.dist.php
+
+# Ignore docker development environment
+docker-compose.yml
+docker-compose.override.yml
+docker-entrypoint.sh
+
+# Ignore editor settings
+.idea
+.phpstorm.meta.php
+composer.json.meta.php
+
+# Ignore local development environment
+.env
+.env.dist
+.env.php
+
+# Ignore local settings files
+config/config.php
+config/config.local.php
+config/parameters.php
+config/parameters.local.php
+
+# Ignore local log files
+log/
+npm-debug.log
+yarn-error.log
+
+# Ignore local cache files
+var/
+vendor/bin/
+vendor/guzzle/
+vendor/guzzlehttp/
+vendor/php-http/
+vendor/react/
+vendor/symfony/
+vendor/zendframework/
